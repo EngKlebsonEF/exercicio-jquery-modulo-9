@@ -1,0 +1,66 @@
+/* Estilo padrão para o documento */
+body {
+    font-family: 'Rock Salt', cursive;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 0;
+}
+
+  /* Estilo do cabeçalho h1 */
+h1 {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: #333;
+}
+
+  /* Estilo do formulário para adicionar a tarefa */
+#task-form {
+    margin-bottom: 20px;
+}
+
+  /* Estilo do campo de input */
+#task-input {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+  /* Estilo do botão de adicionar a tarefa */
+#task-form button {
+    font-family: 'Bungee', cursive;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#clear-button {
+    font-family: 'Bungee', cursive;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+  /* Estilo da lista de tarefas */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+  /* Estilo dos itens da lista de tarefas */
+#task-list li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+  /* Estilo dos itens da lista quando concluídos */
+#task-list li.completed {
+    text-decoration: line-through;
+}

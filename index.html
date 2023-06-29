@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <h1>Lista de Tarefas Diárias</h1>
+
+        <form id="task-form">
+        <input type="text" id="task-input" placeholder="Digite uma tarefa">
+        <input type="time" id="start-time-input" placeholder="Digite o Horário Inicial">
+        <input type="time" id="end-time-input" placeholder="Digite o Horário Final">
+        <button type="submit">Adicionar</button>
+        </form>
+        
+        <ul id="task-list">
+        </ul>
+        
+        <button id="clear-button">Limpar Lista</button>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
